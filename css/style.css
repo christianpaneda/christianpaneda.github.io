@@ -1,0 +1,365 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px; 
+  font-weight: 300; 
+  line-height:  1.3;
+  letter-spacing: 0.05em;  
+
+  background-color: white;
+  color: #292929; 
+
+  margin: 40px auto 48px auto; 
+  width: 1120px; 
+
+}
+
+.logo{
+  width: 60%;
+  height: 60%; 
+  text-decoration: none; 
+}
+
+ul li{
+  display: inline-block; 
+}
+
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;   
+}
+
+h1, nav{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 1.3;
+}
+
+h1 span{
+  color: #52A5CE;  
+}
+
+h2{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+.project-description{
+  margin-bottom: 20px; 
+}
+
+a{
+  text-decoration: none;
+  color: #292929; 
+  margin: 0 0 0 32px; 
+  transition: color 0.5s, border-bottom 0.5s; 
+  border-bottom: 2px solid transparent; 
+}
+
+.icon-logo{
+  margin: 0 auto; 
+  border-bottom: none; 
+}
+
+a:hover, a.selected{ 
+  color: #52A5CE;
+  border-bottom: 2px solid #52A5CE; 
+}
+
+.icon-logo:hover{
+  margin: 0 auto;
+  border-bottom: none;  
+}
+
+section.grid-layout a{
+  text-align: left; 
+}
+
+section{
+  margin: 80px 0; 
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px 32px; 
+  grid-auto-flow: dense;  
+}
+
+section h1{
+  grid-column: 2 / span 10;  
+  text-align: left;
+}
+
+section.project div.image{
+  grid-column: 3 / span 4; 
+  text-align: center; 
+}
+
+section.project div.description{
+  grid-column: 7 / span 4; 
+}
+
+section.project-alt div.image{
+  grid-column: 7 / span 4; 
+  text-align: center; 
+}
+
+section.project-alt div.description{
+  grid-column: 3 / span 4; 
+}
+
+
+section.index div.profile-pic{
+  grid-column: 3 / span 3;
+
+}
+
+section.index div.description{
+  grid-column: 6 / span 6; 
+  text-align: left; 
+}
+
+section.about div.profile-pic{
+  grid-column: 2 / span 5;
+  text-align: center; 
+}
+
+section.about div.description{
+  grid-column: 7 / span 6; 
+}
+
+section.about p{
+  margin: 16px 0 16px 0; 
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a{
+  margin: 0 16px 0 16px; 
+}
+
+.container-footer {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.social-icon{
+  height: 40px;
+  margin: 10px 20px; 
+}
+
+.social-icons-container{
+  text-align: center; 
+}
+
+.footer-notes{
+ font-size: 16px; 
+ text-align: center;  
+}
+
+input,textarea{
+  width: 100%; 
+  border: 2px solid #292929;
+  color: #292929;
+  padding:  8px 16px 8px 16px;    
+}
+
+input:focus,textarea:focus{
+  border: 2px solid #52A5CE;
+}
+
+label{
+  margin: 16px 0 16px 0;
+  display: block;  
+}
+
+textarea{
+  height: 320px; 
+}
+
+section.contact div.form{
+  grid-column: 4 / span 9; 
+}
+
+button{
+  border: 1px solid #292929;
+  text-decoration: none;
+  color: #292929;
+  padding: 10px 30px;
+  display: inline-block;
+  border-radius: 20px;  
+  transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+  margin: 0 0 0 10px; 
+  align-items: center;
+  justify-content: center;  
+}
+
+button:hover{
+  background: #52A5CE; 
+  color: white; 
+}
+
+.project-button{
+  margin-top: 20px; 
+}
+
+.contact-button{
+  margin-bottom: 20px; 
+}
+
+section.grid-layout div{
+  grid-column: span 4; 
+}
+
+section.grid-layout h2{
+margin: 16px 0 16px 0; 
+}
+
+
+
+@media (max-width: 1248px) {
+
+      body{ width: auto;
+           margin: 80px 64px 48px 64px; 
+       }
+
+       h1, nav, footer{
+           font-size: 24px; 
+       }
+
+  
+
+} 
+
+@media (max-width: 920px){
+  
+  header{ flex-direction: column; 
+
+  }
+
+  .logo{
+    width: 100%;
+    height: 100%; 
+  }
+
+  nav{
+      margin: 32px 0 0 0; 
+  }
+
+  header img{
+      max-width: 400px; 
+  }
+
+  header a{
+      0 16px 0 16px; 
+  }
+  
+}
+
+@media (max-width: 660px){
+ 
+  section{
+      grid-template-columns: repeat(4, 1fr)
+      gap: 24px 24px; 
+  }
+
+  section.index div.profile-pic, section.index div.description, section h1, section.grid-layout div, section.project div.image,
+  section.project div.description, 
+  section.project-alt div.image, 
+  section.project-alt div.description, 
+  section.about div.profile-pic,
+  section.about div.description,
+  section.contact div.form{
+      grid-column: 2 / span 10;
+
+  }
+
+  .logo{
+    width: 100%;
+    height: 100%; 
+  }
+
+  .social-icon{
+    height: 20px;
+    margin: 5px 15px; 
+  }
+
+}
+
+@media (max-width: 600px){
+
+  .logo{
+    width: 100%;
+    height: 100%; 
+  }
+
+.icon-logo{
+  margin-left: 5px; 
+}
+
+.icon-logo:hover{
+  margin-left: 5px; 
+  border-bottom: none;  
+}
+
+  
+header img{
+      margin-right: 30px; 
+  }
+
+  header h1{
+      text-align: center;
+      display: inline-block; 
+  }
+
+  body{
+      margin: 32px 32px 32px 32px; 
+  }
+
+  .footer-notes{
+    font-size: 12px; 
+  }
+
+  ul li{
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+      justify-content: center;
+      margin: 8px 32px 0 0;  
+  }
+
+  section{
+      margin: 64px 0 64px 0; 
+  }
+
+  .social-icon{
+    height: 20px;
+    margin: 5px 15px; 
+  }
+} 
+
+@media (max-width: 375px){
+
+section.index div.profile-pic, section.index div.description, section h1, section.grid-layout div, section.project div.image, section.project div.description, section.project-alt div.image, section.project-alt div.description, section.about div.profile-pic, section.about div.description, section.contact div.form {
+    grid-column: 2 / Span 9;
+}
+
+
+  .footer-notes{
+    font-size: 8px; 
+  }
+
+}
+
+
+}
+
