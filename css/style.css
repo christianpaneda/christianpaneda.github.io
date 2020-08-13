@@ -13,6 +13,10 @@ body{
 
 }
 
+p{
+  font-weight: 300; 
+}
+
 .logo{
   width: 60%;
   height: 60%; 
