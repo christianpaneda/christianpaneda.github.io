@@ -213,6 +213,19 @@ section.contact div.form{
   margin-top: 20px; 
 }
 
+button{
+  border: 1px solid #292929;
+  text-decoration: none;
+  color: #292929;
+  padding: 10px 30px;
+  display: inline-block;
+  border-radius: 20px;  
+  transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+  margin: 0 0 0 10px; 
+  align-items: center;
+  justify-content: center;  
+}
+
 .contact-button{
   margin-bottom: 20px; 
 }
