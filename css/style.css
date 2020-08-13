@@ -191,7 +191,7 @@ section.contact div.form{
   grid-column: 4 / span 9; 
 }
 
-button{
+.button{
   border: 1px solid #292929;
   text-decoration: none;
   color: #292929;
@@ -204,7 +204,7 @@ button{
   justify-content: center;  
 }
 
-button:hover{
+.button:hover{
   background: #52A5CE; 
   color: white; 
 }
