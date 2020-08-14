@@ -64,6 +64,13 @@ a{
   border-bottom: 2px solid transparent; 
 }
 
+a.extra{
+  text-decoration: none;
+  color: #292929;  
+  transition: color 0.5s, border-bottom 0.5s; 
+  border-bottom: 2px solid transparent; 
+}
+
 .icon-logo{
   margin: 0 auto; 
   border-bottom: none; 
