@@ -73,7 +73,8 @@ a.extra{
 }
 
 a.img-link{
-  margin: 0 auto;   
+  margin: 0 auto;  
+  text-decoration: none;  
   transition: color 0.5s, border-bottom 0.5s; 
   border-bottom: 2px solid transparent; 
 }
