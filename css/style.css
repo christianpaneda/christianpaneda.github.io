@@ -72,7 +72,7 @@ a.extra{
   border-bottom: 2px solid transparent; 
 }
 
-a.extra{
+a.img-link{
   margin: 0 auto;   
   transition: color 0.5s, border-bottom 0.5s; 
   border-bottom: 2px solid transparent; 
