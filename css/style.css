@@ -65,6 +65,7 @@ a{
 }
 
 a.extra{
+  text-decoration: underline;
   color: #52A5CE;
   margin: 0 auto;   
   transition: color 0.5s, border-bottom 0.5s; 
