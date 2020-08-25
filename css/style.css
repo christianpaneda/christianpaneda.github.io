@@ -79,6 +79,11 @@ a.img-link{
   border-bottom: 2px solid transparent; 
 }
 
+a.paragraph{
+  color:  #52A5CE;
+  margin: 0 auto;
+}
+
 .icon-logo{
   margin: 0 auto; 
   border-bottom: none; 
