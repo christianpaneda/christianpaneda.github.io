@@ -42,7 +42,8 @@ h1, nav{
 }
 
 h1 span{
-  color: #52A5CE;  
+  color: #0336FF;
+  font-weight: 600;  
 }
 
 h2{
@@ -66,7 +67,7 @@ a{
 
 a.extra{
   text-decoration: underline;
-  color: #52A5CE;
+  color: #AD0045;
   margin: 0 auto;   
   transition: color 0.5s, border-bottom 0.5s; 
   border-bottom: 2px solid transparent; 
@@ -80,7 +81,7 @@ a.img-link{
 }
 
 a.paragraph{
-  color:  #52A5CE;
+  color:  #AD0045;
   margin: 0 auto;
 }
 
@@ -90,8 +91,9 @@ a.paragraph{
 }
 
 a:hover, a.selected{ 
-  color: #52A5CE;
-  border-bottom: 2px solid #52A5CE; 
+  color: #0336FF;
+  border-bottom: 2px solid #0336FF; 
+  font-weight: 600;
 }
 
 .icon-logo:hover{
@@ -199,7 +201,7 @@ input,textarea{
 }
 
 input:focus,textarea:focus{
-  border: 2px solid #52A5CE;
+  border: 2px solid #0336FF;
 }
 
 label{
@@ -229,8 +231,8 @@ section.contact div.form{
 }
 
 .button:hover{
-  background: #52A5CE; 
-  color: white; 
+  background: #FFDE03; 
+  color: #0F0F0E; 
 }
 
 .project-button{
