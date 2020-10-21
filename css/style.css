@@ -100,6 +100,7 @@ a.paragraph{
   font-size: 12px; 
   text-transform: uppercase;
   margin: 0 auto;
+  padding: 5px; 
 }
 
 a.paragraph{
@@ -141,6 +142,10 @@ a.paragraph:hover{
 
 section.grid-layout a{
   text-align: left; 
+}
+
+section.grid-layout h2, p{
+  padding-left: 5px; 
 }
 
 section{
@@ -294,8 +299,12 @@ button{
   margin-bottom: 20px; 
 }
 
-section.grid-layout div{
-  grid-column: span 4; 
+div.grid-layout{
+  grid-column: 2 / span 5; 
+}
+
+div.grid-layout-alt{
+  grid-column: 7 / span 5; 
 }
 
 section.grid-layout h2{
