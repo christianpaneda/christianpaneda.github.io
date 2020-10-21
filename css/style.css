@@ -17,6 +17,11 @@ p{
   font-weight: 400; 
 }
 
+span.tag{
+  background-color: #FFDE03;
+  color: #292929; 
+}
+
 .logo{
   width: 60%;
   height: 60%; 
