@@ -348,6 +348,10 @@ margin: 16px 0 16px 0;
   header a{
       0 16px 0 16px; 
   }
+
+  div.profile-pic{
+    grid-column: 2 / Span 9;
+  }
   
 }
 
@@ -369,6 +373,10 @@ margin: 16px 0 16px 0;
 
   }
 
+  section.index div.profile-pic {
+    grid-column: 2 / span 10;
+  }
+
   .logo{
     width: 100%;
     height: 100%; 
@@ -378,6 +386,7 @@ margin: 16px 0 16px 0;
     height: 20px;
     margin: 5px 15px; 
   }
+
 
 }
 
@@ -395,8 +404,8 @@ margin: 16px 0 16px 0;
 .icon-logo:hover{
   margin-left: 5px; 
   border-bottom: none;  
-}
 
+}
   
 header img{
       margin-right: 30px; 
@@ -431,6 +440,9 @@ header img{
     height: 20px;
     margin: 5px 15px; 
   }
+
+  
+
 } 
 
 @media (max-width: 375px){
