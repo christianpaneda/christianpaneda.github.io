@@ -34,6 +34,10 @@ ul li{
   display: inline-block; 
 }
 
+ol li{
+  margin-left: 10px;
+}
+
 
 header{
   display: flex;
@@ -62,8 +66,6 @@ h2{
 .project-description{
   margin-bottom: 20px; 
 }
-
-
 
 a{
   text-decoration: none;
@@ -196,8 +198,7 @@ section.about div.profile-pic{
 }
 
 section.about div.description{
-  grid-column: 7 / span 6; 
-  font-weight: 300; 
+  grid-column: 7 / span 6;  
 }
 
 section.about p{
@@ -257,8 +258,33 @@ textarea{
 }
 
 section.contact div.form{
-  grid-column: 4 / span 9; 
+  grid-column: 4 / span 12; 
+  text-align: center;
 }
+
+section.writing div.form{
+  grid-column: 4 / span 12; 
+  text-align: center;
+}
+
+section.writing div.block{
+  grid-column: 2 / span 12; 
+  text-align: left;
+}
+
+section.writing h2{
+  font-weight: 500;
+}
+
+section.writing div.image-left{
+  grid-column: 2 / span 5;
+  text-align: center; 
+}
+
+section.writing div.image-right{
+  grid-column: 8 / span 5;  
+}
+
 
 .button{
   border: 1px solid #292929;
@@ -309,6 +335,16 @@ div.grid-layout-alt{
 
 section.grid-layout h2{
 margin: 16px 0 16px 0; 
+}
+
+.header {
+  position: fixed;
+  left: 0; 
+  right: 0; 
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  margin: 0 auto; 
 }
 
 
