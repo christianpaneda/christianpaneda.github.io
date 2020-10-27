@@ -285,6 +285,18 @@ section.writing div.image-right{
   grid-column: 8 / span 5;  
 }
 
+section.writing div.image-center{
+  grid-column: 5 / span 6;
+  
+}
+
+.project-vid-small{
+    width: 410px;
+    display: block;
+    margin: auto;
+    padding-right: 70px;
+    overflow: hidden;
+}
 
 .button{
   border: 1px solid #292929;
@@ -391,7 +403,7 @@ margin: 16px 0 16px 0;
   
 }
 
-@media (max-width: 660px){
+@media (max-width: 700px){
  
   section{
       grid-template-columns: repeat(4, 1fr)
@@ -404,7 +416,8 @@ margin: 16px 0 16px 0;
   section.project-alt div.description, 
   section.about div.profile-pic,
   section.about div.description,
-  section.contact div.form{
+  section.contact div.form, 
+  section.writing div.form, section.writing div.block, section.writing h2, section.writing div.image-left, section.writing div.image-right, section.writing div.image-center{
       grid-column: 2 / span 10;
 
   }
@@ -483,7 +496,7 @@ header img{
 
 @media (max-width: 375px){
 
-section.index div.profile-pic, section.index div.description, section h1, section.grid-layout div, section.project div.image, section.project div.description, section.project-alt div.image, section.project-alt div.description, section.about div.profile-pic, section.about div.description, section.contact div.form {
+section.index div.profile-pic, section.index div.description, section h1, section.grid-layout div, section.project div.image, section.project div.description, section.project-alt div.image, section.project-alt div.description, section.about div.profile-pic, section.about div.description, section.contact div.form,  section.writing div.form, section.writing div.block, section.writing h2, section.writing div.image-left, section.writing div.image-right {
     grid-column: 2 / Span 9;
 }
 
