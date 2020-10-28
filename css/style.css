@@ -433,7 +433,13 @@ margin: 16px 0 16px 0;
   
 }
 
-@media (max-width: 700px){
+@media (max-width: 900px){
+  .project-vid-medium{
+    display: none; 
+  }
+}
+
+@media (max-width: 800px){
  
   section{
       grid-template-columns: repeat(4, 1fr)
@@ -473,7 +479,6 @@ section.writing div.quote-text{
   overflow: hidden;
 }
 
-
   section.index div.profile-pic {
     grid-column: 2 / span 10;
   }
@@ -488,6 +493,9 @@ section.writing div.quote-text{
     margin: 5px 15px; 
   }
 
+.frame{
+  display: none; 
+}
 
 }
 
