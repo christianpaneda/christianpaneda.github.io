@@ -437,10 +437,32 @@ margin: 16px 0 16px 0;
   section.about div.profile-pic,
   section.about div.description,
   section.contact div.form, 
-  section.writing div.form, section.writing div.block, section.writing h2, section.writing div.image-left, section.writing div.image-right, section.writing div.image-center{
+  section.writing div.form, section.writing div.block, section.writing h2, section.writing div.image-left, section.writing div.image-right, section.writing div.image-center, section.writing div.quote-text{
       grid-column: 2 / span 10;
 
   }
+
+  section.writing div.quote-text, section.writing div.tag-text{
+    text-align: center;
+
+}
+
+section h1{
+  text-align: center;
+}
+
+section.writing div.quote-text{
+  padding-left: 0px;
+}
+
+.project-vid-small{
+  width: 300px;
+  display: block;
+  margin: auto;
+  padding-left: 10px; 
+  overflow: hidden;
+}
+
 
   section.index div.profile-pic {
     grid-column: 2 / span 10;
@@ -476,6 +498,14 @@ margin: 16px 0 16px 0;
 
 }
   
+.project-vid-small{
+  width: 300px;
+  display: block;
+  margin: auto;
+  padding-right: 55px; 
+  overflow: hidden;
+}
+
 header img{
       margin-right: 30px; 
   }
@@ -523,6 +553,10 @@ section.index div.profile-pic, section.index div.description, section h1, sectio
 
   .footer-notes{
     font-size: 8px; 
+  }
+
+  section.writing div.quote-text{
+    padding-left: 0 auto;
   }
 
 }
