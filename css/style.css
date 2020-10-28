@@ -24,6 +24,10 @@ span.tag{
   border-radius: 8px;
 }
 
+span.bold{
+  font-weight: 700; 
+}
+
 .logo{
   width: 80%;
   height: 80%; 
@@ -161,6 +165,7 @@ section{
 section h1{
   grid-column: 2 / span 10;  
   text-align: left;
+  font-weight: 700;
 }
 
 section.project div.image{
@@ -272,13 +277,24 @@ section.writing div.block{
   text-align: left;
 }
 
+section.writing div.tag-text{
+  text-align: center;
+}
+
+
 section.writing h2{
-  font-weight: 500;
+  font-weight: 700;
 }
 
 section.writing div.image-left{
   grid-column: 2 / span 5;
-  text-align: center; 
+  text-align: right; 
+}
+
+section.writing div.quote-text{
+  grid-column: 2 / span 6;
+  text-align: right; 
+  padding-left: 30px;
 }
 
 section.writing div.image-right{
@@ -290,11 +306,16 @@ section.writing div.image-center{
   
 }
 
+section.writing div.project-center{
+  grid-column: 3 / span 6;
+  
+}
+
 .project-vid-small{
-    width: 410px;
+    width: 300px;
     display: block;
     margin: auto;
-    padding-right: 70px;
+    margin-right: 120px; 
     overflow: hidden;
 }
 
@@ -358,7 +379,6 @@ margin: 16px 0 16px 0;
   width: 100%;
   margin: 0 auto; 
 }
-
 
 @media (max-width: 1248px) {
 
