@@ -322,6 +322,13 @@ section.writing div.project-center{
     overflow: hidden;
 }
 
+.project-vid-medium{
+  width: 800px;
+  display: block;
+  margin: auto; 
+  overflow: hidden;
+}
+
 .button{
   border: 1px solid #292929;
   text-decoration: none;
