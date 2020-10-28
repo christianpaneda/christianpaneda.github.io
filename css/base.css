@@ -71,6 +71,11 @@ input, textarea, select {
   width: 0%;
 }
 
+ul.about{
+  padding-left: 7px; 
+}
+
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
