@@ -67,6 +67,10 @@ h2{
   line-height: 130%;
 }
 
+.no-bold{
+  font-weight: 400; 
+}
+
 .project-description{
   margin-bottom: 20px; 
 }
@@ -87,7 +91,7 @@ a.link-to-project{
 
 
 a.extra{
-  text-decoration: underline;
+  text-decoration: none;
   color: #AD0045;
   margin: 0 auto;   
   transition: color 0.5s, border-bottom 0.5s; 
@@ -165,10 +169,6 @@ section{
 section h1{
   grid-column: 2 / span 10;  
   text-align: left;
-}
-
-section div.form{
-  font-weight: 700;
 }
 
 section.project div.image{
@@ -265,9 +265,21 @@ textarea{
   height: 320px; 
 }
 
+div.form{
+  font-weight: 700;
+  grid-column: 2 / span 12;
+}
+
 section.contact div.form{
-  grid-column: 4 / span 12; 
+  grid-column: 3 / span 8; 
+  text-align: left;
+}
+
+section.contact h1{
+  grid-column: 1 / span 12; 
   text-align: center;
+  margin: 0 auto;
+  padding: 0 auto; 
 }
 
 section.writing div.form{
