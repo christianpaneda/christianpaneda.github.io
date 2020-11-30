@@ -402,6 +402,10 @@ margin: 16px 0 16px 0;
   margin: 0 auto; 
 }
 
+.right {
+  text-align: right;
+}
+
 @media (max-width: 1248px) {
 
       body{ width: auto;
