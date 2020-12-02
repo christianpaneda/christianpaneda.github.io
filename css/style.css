@@ -17,6 +17,10 @@ p{
   font-weight: 400; 
 }
 
+.emphasis{
+  text-align: center; 
+}
+
 span.tag{
   background-color: #FFDE03;
   color: #292929; 
@@ -243,6 +247,10 @@ footer a{
 .footer-notes{
  font-size: 12px; 
  text-align: center;  
+}
+
+.highlight{
+  background-color: #B7EEFF;
 }
 
 input,textarea{
