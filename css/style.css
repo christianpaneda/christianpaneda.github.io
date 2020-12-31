@@ -71,6 +71,20 @@ h2{
   line-height: 130%;
 }
 
+h3{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .no-bold{
   font-weight: 400; 
 }
@@ -412,6 +426,20 @@ margin: 16px 0 16px 0;
 
 .right {
   text-align: right;
+}
+
+
+ 
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 @media (max-width: 1248px) {
