@@ -164,7 +164,8 @@ a.link-to-project{
 
 a.extra{
   text-decoration: none;
-  color: #AD0045;
+  /* color: #AD0045; */
+  color: #0336FF; 
   margin: 0 auto;   
   transition: color 0.5s, border-bottom 0.5s; 
   border-bottom: 2px solid transparent; 
