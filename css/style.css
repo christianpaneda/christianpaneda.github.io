@@ -179,7 +179,7 @@ a.img-link{
 }
 
 a.paragraph{
-  color:  #AD0045;
+  color:  #0336FF;
   font-size: 12px; 
   text-transform: uppercase;
   margin: 0 auto;
@@ -187,7 +187,7 @@ a.paragraph{
 }
 
 a.paragraph{
-  color:  #AD0045;
+  color:  #0336FF;
   margin: 0 auto;
 }
 
@@ -212,7 +212,7 @@ a.link-to-project:hover{
 a.paragraph:hover{
   border-bottom: none;
   text-decoration: none;
-  color:  #AD0045;
+  color:  #0336FF;
   font-size: 12px; 
   text-transform: uppercase;
   margin: 0 auto;
