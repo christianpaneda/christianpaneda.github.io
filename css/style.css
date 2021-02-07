@@ -35,6 +35,16 @@ p{
   padding: 32px;
 }
 
+.emphasis-2{
+  font-family: "Open Sans", sans-serif;
+
+  background-color: #1D1A1B;
+  border: 8px solid;
+  border-color: #FFCF44;
+  color: #F6F2E4;
+  padding: 32px;
+}
+
 h2.emphasis{
   font-style: normal;
   font-family: 'Open Sans', sans-serif;
